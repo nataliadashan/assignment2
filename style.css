@@ -17,9 +17,9 @@ body {
 
 #container
 {
-  display: block; 
+  display: block;
   height:auto;
-  position: relative; 
+  position: relative;
   width: 940px;
 }
 
@@ -29,17 +29,20 @@ body {
 text-align:right;
 
 font-size:30px;
-color:#FFF;	
+color:#FFF;
 left:550px;
 top:100px;
 }
 
+.large_text {
+	font-size: 20px;
+}
 
 #mainpic h2
 {
 position:absolute;
 text-align:right;
-color:#E1E7F7;	
+color:#E1E7F7;
 left:550px;
 top:130px;
 }
@@ -49,7 +52,7 @@ top:130px;
 background-image:url(http://demilked.uuuploads.com/100000-led-spheres-floating-sumida-river-japan/100000-led-spheres-floating-sumida-river-japan-4-large.jpg);
 background-repeat:no-repeat;
 width:900px;
-height:402px;	
+height:402px;
 }
 
 
@@ -68,7 +71,7 @@ clear:both;
 #content
 {
 width:880px;
-height:auto;
+
 background-color:#FFF;
 padding-left:10px;
 padding-right:10px;
@@ -86,9 +89,9 @@ padding-bottom:5px;
 
 #menu li {
 	list-style: none;
-	padding: 0px;	
-	display: inline; 
-	
+	padding: 0px;
+	display: inline;
+
 }
 
 #menu a {
@@ -123,17 +126,17 @@ padding-bottom:5px;
 html, body {
 text-align: center;
 }
-p {text-align: left;}
+p {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
+.clearfix{
+	clear: both;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.left_image {
+	float: left;
+	border: 0px;
+}
